@@ -1,0 +1,5 @@
+name: 'Let''s use an external storage - Core'
+type: module
+description: 'Let''s use an external storage'
+core: 8.x
+package: 'Let''s use an external storage'

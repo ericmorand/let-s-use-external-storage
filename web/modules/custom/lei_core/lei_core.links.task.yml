@@ -1,0 +1,8 @@
+lei_core.thing_collection_tab:
+  title: Things
+  route_name: entity.thing.collection
+  base_route: system.admin_content
+lei_core.thing_settings_tab:
+  title: Things settings
+  route_name: thing.settings
+  base_route: thing.settings

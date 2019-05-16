@@ -1,0 +1,8 @@
+services:
+  lei_core.theme_handler:
+    class: Drupal\lei_core\ThemeHandler
+    arguments: ['@app.root', '@config.factory', '@extension.list.theme']
+  entity.query.thing:
+    class: Drupal\lei_core\ThingQueryFactory
+    arguments: ['@config.factory']
+

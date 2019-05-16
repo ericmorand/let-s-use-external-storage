@@ -1,0 +1,5 @@
+lei_core.menu_links:
+  title: Things
+  parent: system.admin_structure
+  route_name: thing.settings
+  description: Manage fields, forms, and display settings for your...er...well...things
