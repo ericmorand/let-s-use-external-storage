@@ -165,7 +165,7 @@ class ThingStorage extends ContentEntityStorageBase implements ThingStorageInter
    */
   protected function has($id, EntityInterface $entity)
   {
-    // TODO: Implement has() method.
+    return TRUE;
   }
 
   /**
