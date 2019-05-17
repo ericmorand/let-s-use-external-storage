@@ -36,7 +36,8 @@ use Drupal\Core\StringTranslation\TranslatableMarkup;
  *     "edit-form" = "/thing/{thing}/edit"
  *   },
  *   admin_permission = "administer thing entities",
- *   field_ui_base_route = "thing.settings"
+ *   field_ui_base_route = "thing.settings",
+ *   show_path_ui = TRUE
  * )
  */
 class Thing extends ContentEntityBase implements ThingInterface

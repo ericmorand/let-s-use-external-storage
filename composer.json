@@ -76,6 +76,11 @@
                 "sites/default/default.settings.php"
             ],
             "omit-defaults": true
+        },
+        "patches": {
+            "drupal/core": {
+                "Path module \"URL alias\" field should be available to any entity type": "https://www.drupal.org/files/issues/2019-05-17/305539.patch"
+            }
         }
     }
 }
